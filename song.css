@@ -31,6 +31,22 @@ a{
 .disc-container{
   position: relative;
 }
+.disc-container .icon{
+  width: 10vw;
+  fill: white;
+}
+.disc-container .icon-wrapper{
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  width: 22vw;
+  height: 22vw;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+}
 
 .disc-container .pointer {
   width: 25vw;
@@ -64,6 +80,18 @@ a{
 .disc-container.playing .light,
 .disc-container.playing .cover{
   animation: circle 20s linear infinite;
+}
+
+
+.disc-container .icon-pause{
+  display: none;
+}
+
+.disc-container.playing .icon-pause{
+  display: block;
+}
+.disc-container.playing .icon-play{
+  display: none;
 }
 
 .song-description{
