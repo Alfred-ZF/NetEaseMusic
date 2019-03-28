@@ -26,7 +26,7 @@ $(function () {
 
   })
   let audio = document.createElement('audio')
-  audio.src = 'https://m801.music.126.net/20190328125636/41b2c1c7a66d3cba3a5874b1532bd3a5/jdyyaac/515c/0e08/0f5c/f66a8049539b36e25bb9861af5109f52.m4a'
+  audio.src = '//pp2cjxdfh.bkt.clouddn.com/045b_010c_010f_31f6c268ce6f86bb16ad6e7b2cf761c8.m4a'
   audio.setAttribute('muted', 'muted')
   audio.oncanplay = function () {
     $('.disc-container').addClass('playing')

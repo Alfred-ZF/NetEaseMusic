@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+ul,ol{
+  list-style: none;
+}
+
+body{
+  font-size: 3.7vw;
+}
+
+.topBar{
+ background: #d43c33;
+ padding: 4.5vw 2.5vw;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.topBar .logo{
+  width: 38vw;
+  /* padding: 2.5vw ; */
+}
+
+.topBar .downloadApp{
+  line-height: 7.5vw;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4.25vw;
+  padding: 0 0.5em;
+}
+
+.siteNav{
+
+}
+
+.siteNav > ol{
+  display: flex;
+  text-align: center;
+
+  border-bottom: 1px solid #ccc;
+  font-size: 1.1em;
+}
+
+.siteNav > ol > li{
+  flex: 1;
+}
+
+.siteNav > ol > li>span{
+  height: 11vw;
+  line-height: 12vw;
+  display: inline-block;
+  position: relative;
+}
+
+.siteNav > ol > li.active>span::before{
+  content: '';
+  bottom: 0;
+  
+  left: -2vw;
+  right: -2vw;
+  position: absolute;
+  border-bottom: 3px solid #d33a31;
+
+}
+
+.playLists{
+
+}
+
+.lastestMusic{
+
+}
+
+section.art{
+
+}
