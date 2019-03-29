@@ -1,4 +1,4 @@
-$.get('/songs.json').then(function (response) {
+$.get('./songs.json').then(function (response) {
   //response可能是字符串，只是这里 response 的 content-type 是 json
   let items = response
   items.forEach((i) => {
