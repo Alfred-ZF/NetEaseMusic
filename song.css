@@ -106,6 +106,10 @@ a{
   margin-top: 20px;
 }
 
+.song-description .line{
+  transition: transform 0.3s;
+}
+
 .song-description h1{
   color:white;
   font-size: 20px;
@@ -118,7 +122,9 @@ a{
 
 .song-description p.active{
   color: white;
-  font-size: 14px;
+  font-size: 20px;
+  font-weight: bold;
+
 }
 .song-description .lyric {
   height: 72px;
