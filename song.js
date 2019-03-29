@@ -4,7 +4,7 @@ $(function () {
 
 
 
-  $.get('/songs.json').then(function (response) {
+  $.get('./songs.json').then(function (response) {
     let songs = response
     let songId = songs.filter((s) => {
       return s.id == id
