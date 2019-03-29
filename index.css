@@ -11,6 +11,7 @@
 
 a{
   text-decoration: none;
+  cursor: pointer;
 }
 ul,ol{
   list-style: none;
@@ -122,8 +123,8 @@ section>h2:first-child{
   text-overflow: ellipsis;
 }
 
-.lastestMusic{
-
+.lastestMusic p{
+ text-align: center;
 }
 .lastestMusic > ol{
   padding-left: calc(2.6vw + 3px);
@@ -151,7 +152,7 @@ section>h2:first-child{
   
 }
 
-.lastestMusic > ol li .playcircled svg{
+.lastestMusic > ol li .icon-playcircled{
   width: 5.9vw;
   height: 5.9vw;
   position: absolute;
@@ -169,5 +170,40 @@ section>h2:first-child{
 }
 
 section.art{
+  background: transparent url(http://pp2cjxdfh.bkt.clouddn.com/recommand_bg_2x.png) no-repeat center 0;
+  background-size: cover;
+  padding-top: 17.6vw;
+  padding-bottom: 6vw;
+}
 
+section.art .logo{
+  text-align: center;
+}
+
+section.art .logosvg{
+  width: 61.7vw;
+  margin: 0 auto;
+}
+
+section.art .openApp{
+  display: block;
+  margin: 0 auto;
+  width: 80.5vw;
+  margin-top: 2vw;
+  text-align: center;
+  font-size: 16px;
+  color: #d33a31;
+  border: 1px solid;
+  padding: 1vw 0;
+  line-height: 8.6vw;
+  border-radius: 5.5vw;
+  cursor: pointer;
+  margin-bottom: 2vw;
+}
+
+section.art .copyright{
+  font-size: 12px;
+  transform: scale(.75);
+  text-align: center;
+  color: #949393;
 }
