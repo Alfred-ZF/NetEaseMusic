@@ -25,7 +25,7 @@ a{
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background: transparent url(./images/playing-background.jpg) no-repeat center;
+  background: transparent url(https://i.loli.net/2019/03/30/5c9e41f841436.jpg) no-repeat center;
   background-size: cover;
 }
 .disc-container{
